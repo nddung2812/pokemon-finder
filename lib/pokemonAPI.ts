@@ -7,5 +7,3 @@ export async function getPokemonList() {
   const data = await response.json();
   return data.results;
 }
-
-// Get Pokemon List
